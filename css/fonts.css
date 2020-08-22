@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Raleway Medium';
+    src: url(/fonts/Raleway-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway Light';
+    src: url(/fonts/Raleway-Thin.ttf);
+}
+
+@font-face {
+    font-family: 'Raleway Thin';
+    src: url(/fonts/Raleway-Thin.ttf);
+}

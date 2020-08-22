@@ -1,3 +1,5 @@
+@import url("fonts.css");
+
 body {
     background-color: #242526;
 }
@@ -18,15 +20,19 @@ h1, p {
 .topnav a {
     text-decoration: none;
     color: #FFB86C;
+    font-family: 'Raleway Medium';
     font-size: 24px;
 }
 
 .about {
     padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 .about h1 {
     text-align: center;
+    font-family: 'Raleway Light';
+    font-size: 50px;
 }
 
 .about img {
@@ -40,6 +46,7 @@ h1, p {
 
 .about p {
     text-align: center;
+    font-family: 'Raleway Thin';
     font-size: 16px;
 }
 
@@ -51,6 +58,11 @@ h1, p {
         background-color: #2a2c2d;
         justify-content: space-around;
         align-items: center;
+    }
+
+    .about {
+        padding-top: 2vh;
+        padding-bottom: 2vh;
     }
 
     .about img {
